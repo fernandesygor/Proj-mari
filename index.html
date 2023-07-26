@@ -5,16 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MSG Joias</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   
   </head>
+
   <body>
          <!--NAV BAR -->
     <nav class="navbar navbar-dark bg-dark ">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"> <img src="img/Logo.svg"></a>
+        <div class="container-fluid ">
+          <a class="navbar-brand " href="#"> <img  src="img/Logo.svg"></a>
 
           <!-- Menu-->
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+          <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
@@ -30,6 +36,9 @@
                     <a class="nav-link" href="#">Estoque</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="#">Contabilidade</a>
+              </li>
+                <li class="nav-item">
                   <a class="nav-link" href="#">Cadastro de clientes</a>
                 </li>
                 <li class="nav-item">
@@ -39,41 +48,75 @@
         </div>
       </nav>
 
-     
+     <!-- table de revendedoras -->
     <section>
-      <div class="container m-2">
-        <div class="row align-items-star ">
-          <div class="col"> 
-          </div>
-          <div class="col">
-            Venda
-          </div>
-          <div class="col">
-            Valor T/ Joias
-          </div>
-          <div class="col">
-            Remessa
-          </div>
-          <div class="col">
-            Meta
-          </div>
-        </div>
-      </div>
-    </section>
+      <table class="table table-sm table-warning">
+        <thead>
+          <tr>
+            <th scope="col">Nº</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Venda</th>
+            <th scope="col">Pedido</th>
+            <th scope="col">Meta</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Rosana</td>
+            <td>R$500,00</td>
+            <td>Repor</td>
+            <td>R$1.000,00</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Rosana</td>
+            <td>R$200,00</td>
+            <td>Troca</td>
+            <td>R$1.000,00</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      </section>
 
-    <!-- Contens -->
-    <div class="m-1" style="display: flex; flex-direction: column; " class="">
-     <img style="margin: 4px;" src="img/Contens.svg" alt="">
-     <img style="margin: 4px;" src="img/Contens.svg" alt="">
-     <img style="margin: 4px;" src="img/Contens.svg" alt="">
-     <img style="margin: 4px;" src="img/Contens.svg" alt="">
-     <img style="margin: 4px;" src="img/Contens.svg" alt="">
-     <img style="margin: 4px;" src="img/Contens.svg" alt="">
+      <!-- bloco de anotacoes -->
+      <section>
+        <form>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Anotações:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </form>
+      </section>
+
+     
+  
+    
+
+  
     
  
-    </div>
-    
+  
 
+    
   
         
      
