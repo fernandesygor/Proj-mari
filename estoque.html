@@ -32,11 +32,11 @@
             <div class="offcanvas-body">
 
             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link" href="login.html">Início</a>
-            </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="estoque.html">Estoque</a>
+                    <a class="nav-link" href="index.html">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Estoque</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contabilidade</a>
@@ -47,10 +47,21 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Cadastro de revendedoras</a>
                 </li>
-               
             </ul>
         </div>
       </nav>
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Brinco</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ponto de luz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Braceletes</a>
+        </li>
+      </ul>
 
      <!-- table de revendedoras -->
     <section>
@@ -59,25 +70,25 @@
           <tr>
             <th scope="col">Nº</th>
             <th scope="col">Nome</th>
-            <th scope="col">Venda</th>
-            <th scope="col">Pedido</th>
-            <th scope="col">Meta</th>
+            <th scope="col">Valor</th>
+            <th scope="col">Cod</th>
+            <th scope="col"></th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Rosana</td>
-            <td>R$500,00</td>
-            <td>Repor</td>
-            <td>R$1.000,00</td>
+            <td>Ponto de <br> luz</td>
+            <td>R$90,00</td>
+            <td>#45nd238</td>
+            <td><img src="d" alt="ERRO"></td>
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td>Rosana</td>
-            <td>R$200,00</td>
-            <td>Troca</td>
-            <td>R$1.000,00</td>
+            <td>Brinco</td>
+            <td>R$60,00</td>
+            <td>#4sdx238</td>
+            <td><img src="d" alt="ERRO"></td>
           </tr>
           <tr>
             <th scope="row">3</th>
@@ -101,15 +112,21 @@
       </table>
       </section>
 
-      <!-- bloco de anotacoes -->
-      <section>
-        <form>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Anotações:</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-        </form>
-      </section>
+      <nav aria-label="Navegação de página exemplo">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link" href="#" tabindex="-1">Anterior</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Próximo</a>
+          </li>
+        </ul>
+      </nav>
+
+      
 
      
   
