@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MSG Joias</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   
+  </head>
+
+  <body>
+         <!--NAV BAR -->
+    <nav class="navbar navbar-dark bg-dark ">
+        <div class="container-fluid ">
+          <a class="navbar-brand " href="#"> <img  src="img/Logo.svg"></a>
+
+          <!-- Menu-->
+          <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                 <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                 <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+            <div class="offcanvas-body">
+
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Início</a>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="estoque.html">Estoque</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="">Clientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comtabilidade.html">Contabilidade</a>
+            </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="cadastroDeclientes.html">Cadastro de clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cadastro de revendedoras</a>
+                </li>
+               
+            </ul>
+        </div>
+      </nav>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <section>
+              <table class="table table-sm table-warning">
+                <thead>
+                  <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">T/Venda</th>
+                    <th scope="col">Parcelas</th>
+                    <th scope="col">Ven</th>
+                    <th scope="col">Data</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Rosana</td>
+                    <td>R$500,00</td>
+                    <td>2/5</td>
+                    <td>Dia 10</td>
+                    <td>15/Jan</td>
+                  </tr>
+                  <tr>
+                    <th scope="row"></th>
+                    <td>Jordania</td>
+                    <td>R$200,00</td>
+                    <td>1/5</td>
+                    <td>Dia 10</td>
+                    <td>17/junho</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">.</th>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">.</th>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">.</th>
+                    <td colspan="2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              </section>
+
+              <section class="mt-4">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Anotações:</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </form>
+              </section>
+
+              <form class="form-floating mt-4">
+                <input type="email" class="form-control" id="floatingInputValue" placeholder="Pagamento" value="">
+                <label for="floatingInputValue">Pagamento do Mês</label>
+
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <button class="btn btn-outline-success mt-4" type="button">Enviar</button>
+                    
+                  </div>
+              </form>
+
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+            </body>
+          </html>
