@@ -2,6 +2,6 @@
     document.getElementById("login-form").addEventListener("submit", function(event) {
       event.preventDefault(); 
       
-      window.location.href = "index.html";
+      window.location.href = "clientes.html";
     });
   
