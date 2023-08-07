@@ -1,5 +1,19 @@
-document.getElementById("login-form").addEventListener("submit", function(event) {
-    event.preventDefault(); 
+
+document.addEventListener("DOMContentLoaded", function() {
+  const loginForm = document.getElementById("login-form");
+
+  loginForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const username = loginForm.username.value;
+    const password = loginForm.password.value;
+
     
-    window.location.href = "index.html";
+    if (username === "Mariana" && password === "mari") {
+      
+      window.location.href = "index.html";
+    } else {
+      alert("Credenciais inválidas. Tente novamente.");
+    }
   });
+});

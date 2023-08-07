@@ -1,13 +1,5 @@
 document.getElementById("login-form").addEventListener("submit", function(event) {
     event.preventDefault(); 
     
-    window.location.href = "comtabilidade.html";
+    window.location.href = "venda.html";
   });
-
-
-
-
-
-
-
-

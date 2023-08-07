@@ -1,23 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style-login.css">
-  <title>Página de Cadastro de Clientes</title>
+
+  <title>Tela de Login</title>
 </head>
 <body>
   <div class="login-container">
-    <div>
-        <img src="img/Logo.svg" alt="">
-    </div>
+  
+    <h1>MSG Joias</h1>
     <form id="login-form">
-      <input class="login-input" type="text" placeholder="Nome">
-      <input class="login-input" type="tel" placeholder="Telefone">
-      <input class="login-input" type="endereço" placeholder="End.">
-      <button class="login-button" href="clientes.html">Enviar</button>
+      
+      <input class="m-4" type="text" placeholder="Usuário" id="username" name="username" required>
+      <input type="password" placeholder="Senha" id="password" name="password" required>
+      
+      <button type="submit">Entrar</button>
     </form>
   </div>
 </body>
+
 <script src="js/js-login.js"></script>
 </html>
+
